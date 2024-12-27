@@ -21,4 +21,4 @@ A lightweight, customizable library to generate One-Time Passwords (OTPs) for nu
 ### From GitHub
 Install the library directly from GitHub:
 ```bash
-npm install git+https://<your_pat>@github.com/0101-Digit-All-Solutions/node_otp_generator_ts.git
+npm install git+https://github.com/0101-Digit-All-Solutions/node_otp_generator_ts.git
