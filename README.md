@@ -1,6 +1,6 @@
 # OTP Generator for TypeScript
 
-[![npm version](https://img.shields.io/npm/v/@0101-labs/node_otp_generator.svg)](https://www.npmjs.com/package/@0101-labs/node_otp_generator)
+[![npm version](https://img.shields.io/npm/v/@0101-labs/ts_otp_generator.svg)](https://www.npmjs.com/package/@0101-labs/ts_otp_generator)
 
 A lightweight, customizable library to generate One-Time Passwords (OTPs) for numeric, alphanumeric, and special character-based use cases.
 
@@ -21,7 +21,7 @@ A lightweight, customizable library to generate One-Time Passwords (OTPs) for nu
 ### From GitHub
 Install the library directly from GitHub:
 ```bash
-npm install @0101-labs/node_otp_generator
+npm install @0101-labs/ts_otp_generator
 ```
 
 ---
@@ -29,21 +29,22 @@ npm install @0101-labs/node_otp_generator
 ## Usage
 
 ```bash
-import { generateOtp } from 'otp-generator-ts';
+import {generateOtp} from '@0101-labs/ts_otp_generator';
 
 // Generate a 6-digit numeric OTP
-const otp = generateOtp(6, { numeric: true });
+const otp: string  = generateOtp(6, { numeric: true });
 console.log(otp); // Example: 123456
 
 // Generate a 10-character alphanumeric OTP
-const otpAlphaNum = generateOtp(10, { numeric: true, alphabets: true });
+const otpAlphaNum: string  = generateOtp(10, { numeric: true, alphabets: true });
 console.log(otpAlphaNum); // Example: Ab3cDe4FgH
 
 // Generate an 8-character OTP with special characters
-const otpSpecial = generateOtp(8, { numeric: true, alphabets: true, specialChars: true });
+const otpSpecial: string  = generateOtp(8, { numeric: true, alphabets: true, specialChars: true });
 console.log(otpSpecial); // Example: A@3!c9Fg
 ```
 ## API
+
 generateOtp(length: number, options: GenerateOtpOptions): string
 
 

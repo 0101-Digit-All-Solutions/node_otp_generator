@@ -1,7 +1,8 @@
 {
-  "name": "@0101-labs/node_otp_generator",
-  "version": "1.0.2",
+  "name": "@0101-labs/ts_otp_generator",
+  "version": "1.0.0",
   "main": "index.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
