@@ -1,5 +1,5 @@
 {
-  "name": "node_otp_generator_ts",
+  "name": "@0101-labs/node_otp_generator",
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
@@ -7,9 +7,9 @@
     "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["otp", "generator", "nodejs", "typescript"],
   "author": "0101 Digit All",
-  "license": "ISC",
+  "license": "MIT",
   "description": "OTP generator library",
   "devDependencies": {
     "@types/jest": "^29.5.14",
