@@ -1,6 +1,6 @@
 # OTP Generator for TypeScript
 
-[![npm version](https://badge.fury.io/js/@0101-labs/node_otp_generator.svg)](https://badge.fury.io/js/@0101-labs/node_otp_generator)
+[![npm version](https://img.shields.io/npm/v/@0101-labs/node_otp_generator.svg)](https://www.npmjs.com/package/@0101-labs/node_otp_generator)
 
 A lightweight, customizable library to generate One-Time Passwords (OTPs) for numeric, alphanumeric, and special character-based use cases.
 
