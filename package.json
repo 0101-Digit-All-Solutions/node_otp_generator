@@ -1,6 +1,6 @@
 {
   "name": "@0101-labs/node_otp_generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.ts",
   "scripts": {
     "build": "tsc",
